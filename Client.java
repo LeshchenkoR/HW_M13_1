@@ -32,7 +32,7 @@ class Client implements Runnable {
             in = new Scanner(is);
             out = new PrintStream(os);
 
-            out.println("Welcome to chat!");
+            out.println("Welcome to my_chat!");
             String input = in.nextLine();
             while (!input.equals("bye")) {
                 server.sendAll(input);
